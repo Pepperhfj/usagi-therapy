@@ -1,0 +1,73 @@
+.usagi {
+    margin-top: 100px;
+    animation: moveUpDown 2s linear infinite;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-20px); 
+    }
+    100% {
+      transform: translateY(0); 
+    }
+  }
+
+.window {
+    width: 300px;
+    height: 139px;;
+    margin-top: 10px;
+}
+
+.searchbar {
+    border: solid;
+    border-color:rgb(255, 234, 187);
+    border-width: 1px;
+    border-radius: 6px;
+    color: rgb(240, 178, 91);
+    font-size: 12px;
+    width: 180px;
+    padding: 3px;
+}
+.Message {
+    outline: dotted;
+    outline-color:rgb(255, 215, 130);
+    outline-width: 2px;
+    padding: 8px;
+    width: 200px;
+    color: rgb(240, 178, 91);
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+
+.yes {
+    border: solid;
+    border-radius: 6px;
+    outline-color: rgb(255, 215, 130);
+    background-color: rgb(255, 215, 130);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 30px;
+}
+
+.no {
+    border: solid;
+    border-radius: 6px;
+    outline-color: rgb(255, 215, 130);
+    background-color: rgb(255, 215, 130);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.3px;
+    height: 21px;
+    width: 46px;
+    padding-top: 6px;
+}
