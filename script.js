@@ -1,3 +1,8 @@
+/* ₍ᐢ. ̫.ᐢ₎ Hello! Didn't think you'd check the source code ( Well after all, it's a public repository ).
+But anyways, thank you for seeing my site and code! I made this so that people can 
+feel better about the circumstances they're in, and I made it Usagi Chiikawa style to make 
+it more wholesome and comforting. Thank you for supporting my work ! */
+
 const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');
 
