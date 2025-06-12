@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>usagi's therapy</title>
-    <link rel="icon" type="image/x-icon" href="https://s3.getstickerpack.com/storage/uploads/sticker-pack/chiikawa-usagi/sticker_14.png?fc96f855fc2046b181c10eba1728fb67&d=200x200">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <center>
 <body>
+    <div id="intro">
+        <p> Hello, welcome to Usagi's therapy session !</p>
+    </div>
     <div class="usagi">
         <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/chiikawa-usagi/sticker_14.png?fc96f855fc2046b181c10eba1728fb67&d=200x200" width=150px>
     </div>
@@ -18,26 +19,29 @@
         ⌕ https://usagi.com
     </div>
 
-    <div class="window">
-       
-        <div class="Message">
-            <p id="question">Hello, are you okay?</p>
+    <div id="window">
+        <div id="Message1">
+            <p id="question">Hello, are you okay ?</p>
         </div>
 
-        <div class="buttons">
-            <button class="yes">
-             Yes :)
-            </button>
-            <div class="no"> 
-                <no onclick="change()">No :(</p>
-            </div>
+        <div id="buttons">
+            <button id="yes">Yes :)</button>
+            <button id="no">No :(</button>
         </div>
          </div>   
+
+         <div id="Message2" style="display: none;">
+            <p id="messagecomfort">I am very sorry that you feel that way. You know, things can change - so I hope you're doing better after a while, and I want to let you know that I'm very proud of everything you do ! Stay safe <3</p>
+            <button id="goBackComfort">Go back ?</button>
+        </div>
+
+        <div id="MessageAlt" style="display: none;">
+            <p id="relief">It's glad to know you're doing okay; I hope things go well for you ! </p>
+            <button id="goBackAlt">Go back ?</button>
+        </div>
+        
+         <script src="script.js"></script>
             
-
-
-         
- 
 </body>
 </center>
 </html>
