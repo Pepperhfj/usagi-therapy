@@ -29,6 +29,7 @@ if (backButton2) {
 function revealMessage2() {
     let window = document.getElementById('window');
     window.style.display = "none";
+    
     let message2 = document.getElementById('Message2');
     message2.style.display = "block";
 }
@@ -37,6 +38,7 @@ function revealMessage2() {
 function revealMessageAlt() {
     let window = document.getElementById('window');
     window.style.display = "none";
+    
     let messageAlt = document.getElementById('MessageAlt');
     messageAlt.style.display = "block";
 }
@@ -45,8 +47,10 @@ function revealMessageAlt() {
 function goBack() {
     let message2 = document.getElementById('Message2');
     message2.style.display = "none";
+    
     let messageAlt = document.getElementById('MessageAlt');
     messageAlt.style.display = "none";
+    
     let window = document.getElementById('window');
     window.style.display = "block";
 }
