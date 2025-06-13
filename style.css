@@ -12,6 +12,7 @@ body {
   color: rgb(240, 178, 91);
   margin-bottom: 30px;
 }
+
 .usagi {
     animation: moveUpDown 2s linear infinite;
   }
@@ -44,6 +45,7 @@ body {
     padding: 3px;
     font-family: usagiFont;
 }
+
 #Message1 {
     outline: dotted;
     outline-color:rgb(255, 215, 130);
