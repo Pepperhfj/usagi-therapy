@@ -156,6 +156,20 @@ body {
   margin-bottom: 8px;
 }
 
+#goBackComfort:focus {
+  border: solid;
+  border-radius: 6px;
+  outline-color: rgb(255, 215, 130);
+  background-color: rgb(255 201 87);
+  color: white;
+  font-family: usagiFont;
+  font-size: 11px;
+  width: 70px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
 #goBackAlt {
   border: solid;
   border-radius: 6px;
@@ -164,6 +178,20 @@ body {
   color: white;
   font-family: usagiFont;
   font-size: 13px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+#goBackAlt:focus {
+  border: solid;
+  border-radius: 6px;
+  outline-color: rgb(255, 215, 130);
+  background-color: rgb(255 201 87);
+  color: white;
+  font-family: usagiFont;
+  font-size: 11px;
+  width: 70px;
   height: 30px;
   margin-top: 5px;
   margin-bottom: 8px;
